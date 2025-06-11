@@ -1,69 +1,182 @@
-# Welcome to your Lovable project
 
-## Project info
+# منصة توصيل الطلبات الشاملة 🚀
 
-**URL**: https://lovable.dev/projects/59461dd7-ebe1-4ae6-8fef-03142db3e65d
+منصة توصيل شاملة تجمع الطعام والبقالة والصيدليات في تطبيق واحد مع نظام تتبع مباشر للطلبات.
 
-## How can I edit this code?
+![منصة التوصيل](https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&h=400&q=80)
 
-There are several ways of editing your application.
+## ✨ المميزات الرئيسية
 
-**Use Lovable**
+### 🍕 خدمات متنوعة
+- **توصيل الطعام** - مطاعم وأكلات متنوعة
+- **البقالة** - احتياجاتك اليومية من المتاجر
+- **الصيدليات** - أدوية ومستلزمات طبية
+- **خدمات إضافية** - زهور، هدايا، ومنتجات أخرى
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/59461dd7-ebe1-4ae6-8fef-03142db3e65d) and start prompting.
+### 📍 تتبع مباشر
+- تتبع الطلب لحظة بلحظة
+- خرائط تفاعلية لموقع السائق
+- إشعارات فورية لحالة الطلب
+- تقدير دقيق لوقت الوصول
 
-Changes made via Lovable will be committed automatically to this repo.
+### 💳 الدفع والمحفظة
+- دفع إلكتروني آمن
+- محفظة رقمية مدمجة
+- دعم متعدد لطرق الدفع
+- نظام نقاط وخصومات
 
-**Use your preferred IDE**
+### 🤝 شراكات المتاجر
+- نموذج شراكة مرن مع المطاعم والمتاجر
+- لوحة تحكم للشركاء
+- إدارة المنتجات والطلبات
+- تقارير المبيعات التفصيلية
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ التقنيات المستخدمة
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Frontend
+- **React 18** - مكتبة واجهة المستخدم
+- **TypeScript** - للأمان في الكود
+- **Vite** - أداة البناء السريعة
+- **Tailwind CSS** - إطار عمل التصميم
+- **shadcn/ui** - مكونات واجهة المستخدم
+- **React Router** - التنقل بين الصفحات
+- **React Query** - إدارة البيانات والـ API
 
-Follow these steps:
+### التصميم والأيقونات
+- **Lucide React** - مكتبة الأيقونات
+- **Responsive Design** - متوافق مع جميع الأجهزة
+- **RTL Support** - دعم كامل للغة العربية
+- **Dark/Light Mode** - دعم الوضع الليلي والنهاري
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 بدء الاستخدام
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### المتطلبات الأساسية
+- Node.js (الإصدار 18 أو أحدث)
+- npm أو yarn
+- Git
 
-# Step 3: Install the necessary dependencies.
-npm i
+### التثبيت والتشغيل
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+# استنساخ المشروع
+git clone <رابط-المستودع>
+
+# الانتقال لمجلد المشروع
+cd delivery-platform
+
+# تثبيت المكتبات
+npm install
+
+# تشغيل الخادم المحلي
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### البناء للإنتاج
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+# بناء المشروع
+npm run build
 
-**Use GitHub Codespaces**
+# معاينة البناء
+npm run preview
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📱 صفحات التطبيق
 
-## What technologies are used for this project?
+### الصفحة الرئيسية
+- عرض الخدمات المتاحة
+- البانرات الترويجية
+- المطاعم والمتاجر الشهيرة
+- تتبع الطلبات النشطة
 
-This project is built with .
+### صفحات الخدمات
+- **المطاعم** (`/restaurants`) - تصفح وطلب الطعام
+- **البقالة** (`/grocery`) - منتجات البقالة والمنزل
+- **الصيدليات** (`/pharmacy`) - الأدوية والمستلزمات الطبية
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### إدارة الطلبات
+- **طلباتي** (`/orders`) - عرض وتتبع جميع الطلبات
+- تفاصيل كل طلب
+- تقييم الخدمة
 
-## How can I deploy this project?
+## 🎨 نظام التصميم
 
-Simply open [Lovable](https://lovable.dev/projects/59461dd7-ebe1-4ae6-8fef-03142db3e65d) and click on Share -> Publish.
+### الألوان الأساسية
+```css
+--brand-primary: #22C55E    /* أخضر رئيسي */
+--brand-secondary: #FDE047  /* أصفر ثانوي */
+--brand-dark: #15803D       /* أخضر داكن */
+--brand-light: #DCFCE7      /* أخضر فاتح */
+```
 
-## I want to use a custom domain - is that possible?
+### الخطوط
+- خط عربي متوافق مع النظام
+- دعم كامل للنصوص العربية
+- أحجام متجاوبة للشاشات المختلفة
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## 📂 هيكل المشروع
+
+```
+src/
+├── components/          # المكونات القابلة لإعادة الاستخدام
+│   ├── ui/             # مكونات shadcn/ui
+│   ├── Header.tsx      # رأس الصفحة
+│   ├── Footer.tsx      # تذييل الصفحة
+│   ├── ServiceCard.tsx # بطاقة الخدمة
+│   ├── StoreCard.tsx   # بطاقة المتجر
+│   ├── OrderTracker.tsx # تتبع الطلب
+│   └── MapView.tsx     # عرض الخريطة
+├── pages/              # صفحات التطبيق
+│   ├── Index.tsx       # الصفحة الرئيسية
+│   ├── RestaurantsPage.tsx
+│   ├── GroceryPage.tsx
+│   ├── PharmacyPage.tsx
+│   └── OrdersPage.tsx
+├── types/              # تعريفات TypeScript
+├── data/              # البيانات التجريبية
+├── hooks/             # React Hooks المخصصة
+└── lib/               # الأدوات المساعدة
+```
+
+## 🔮 المميزات المستقبلية
+
+### المرحلة التالية
+- [ ] تطبيق الجوال (React Native)
+- [ ] تطبيق السائقين
+- [ ] لوحة تحكم المتاجر
+- [ ] نظام التقييمات والمراجعات
+- [ ] الدفع الآجل والتقسيط
+
+### التحسينات التقنية
+- [ ] تكامل مع قواعد البيانات (Supabase)
+- [ ] نظام المصادقة والتوثيق
+- [ ] تكامل مع خرائط Google/Apple
+- [ ] إشعارات الدفع (Push Notifications)
+- [ ] تحسين الأداء والتخزين المؤقت
+
+## 🤝 المساهمة
+
+نرحب بمساهماتكم! يرجى اتباع الخطوات التالية:
+
+1. Fork المشروع
+2. إنشاء فرع جديد (`git checkout -b feature/amazing-feature`)
+3. Commit التغييرات (`git commit -m 'Add some amazing feature'`)
+4. Push للفرع (`git push origin feature/amazing-feature`)
+5. فتح Pull Request
+
+## 📄 الترخيص
+
+هذا المشروع مرخص تحت رخصة MIT - راجع ملف [LICENSE](LICENSE) للتفاصيل.
+
+## 📞 التواصل
+
+- **الموقع الإلكتروني**: [delivery-platform.lovable.app](https://delivery-platform.lovable.app)
+- **البريد الإلكتروني**: support@delivery-platform.com
+- **تويتر**: [@DeliveryPlatform](https://twitter.com/DeliveryPlatform)
+
+---
+
+<div align="center">
+  <p>صُنع بـ ❤️ في الشرق الأوسط</p>
+  <p>Powered by <a href="https://lovable.dev">Lovable</a></p>
+</div>
